@@ -20,12 +20,12 @@ public class Main2Activity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String message = intent.getStringExtra("Extra_message");
-        String message1=intent.getStringExtra("Extra_message1");
+        String msg=intent.getStringExtra("Extra_message1");
         TextView textView=findViewById(R.id.name_TV);
         TextView textView1=findViewById(R.id.address_TV);
 
         textView.setText(message);
-        textView1.setText(message1);
+        textView1.setText(msg);
 
 
 
